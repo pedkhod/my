@@ -2,21 +2,21 @@ def grader(a):
     if a>5 :
         if a>8:
             if a==10 :
-                print("A+")
+                return ("A+")
             else:
-                print("A")
+                return ("A")
         elif   a>6:
-            print("A-")
+            return ("A-")
         else:
-             print("B")
-    if a> 3 and a<5 :
-        print("c")
+             return ("B")
+    if a> 3 and a<=5 :
+        return ("c")
     elif a< 3:
-        print("f")
+        return ("f")
 
 
 
 
 i=[1,2,5,6,9,2,1]
 for m in i :
-    grader(m)
+    print(grader(m))
