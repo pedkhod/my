@@ -6,4 +6,11 @@ def PerNum(x):
 
     if x==s:
         return True
-print(PerNum(28))
+    else:
+       return False
+
+mylist=[]
+for j in range (1,10000):
+    if PerNum(j)==True:
+        mylist.append(j)
+print(mylist)
